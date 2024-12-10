@@ -10,11 +10,11 @@
 const aboutItems = [
   {
     label: "Project done",
-    number: 45
+    number: 20
   },
   {
     label: "Years of experience",
-    number: 3
+    number: 2
   }
 ];
 
@@ -24,11 +24,10 @@ const About = () => {
       <div className="container">
         <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
           <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
-            Wellcome! I&apos;m Sanusi, a professional web developer with a knack
-            for crafting visually stunning and highly functional websites.
-            Combining creatifity and technical expertise, I transform your
-            version into digital masterpiece that excels in both appearance and
-            performance.
+            Wellcome! I&apos;m Sanusi, a web developer with a knack for crafting
+            visually stunning and highly functional websites. Combining
+            creatifity and technical expertise, I transform your version into
+            digital masterpiece that excels in both appearance and performance.
           </p>
           <div className="flex flex-wrap items-center gap-4 md:gap-7">
             {aboutItems.map(({ label, number }, key) => (

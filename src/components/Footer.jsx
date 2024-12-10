@@ -34,7 +34,7 @@ const sitemap = [
 const socials = [
   {
     label: "GitHub",
-    href: "https://www.github.com/codewithsadee-org"
+    href: "https://www.github.com/sanusi15"
   },
   {
     label: "LinkedIn",

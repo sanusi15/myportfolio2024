@@ -10,9 +10,14 @@ import SkillCard from "./SkillCard";
 
 const skillItem = [
   {
-    imgSrc: "/images/figma.svg",
-    label: "Figma",
-    desc: "Design tool"
+    imgSrc: "/images/laravel.svg",
+    label: "Laravel",
+    desc: "Framework"
+  },
+  {
+    imgSrc: "/images/codeigniter.svg",
+    label: "Codeigniter",
+    desc: "Framework"
   },
   {
     imgSrc: "/images/css3.svg",
@@ -35,6 +40,11 @@ const skillItem = [
     desc: "Node Framework"
   },
   {
+    imgSrc: "/images/mysql.svg",
+    label: "MySQL",
+    desc: "Database"
+  },
+  {
     imgSrc: "/images/mongodb.svg",
     label: "MongoDB",
     desc: "Database"
@@ -48,6 +58,16 @@ const skillItem = [
     imgSrc: "/images/tailwindcss.svg",
     label: "TailwindCSS",
     desc: "User Interface"
+  },
+  {
+    imgSrc: "/images/bootstrap.svg",
+    label: "Bootstrap",
+    desc: "User Interface"
+  },
+  {
+    imgSrc: "/images/git.svg",
+    label: "Git",
+    desc: "Version Contrrol System"
   }
 ];
 
