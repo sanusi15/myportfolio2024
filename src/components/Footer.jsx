@@ -38,19 +38,15 @@ const socials = [
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/codewithsadee"
+    href: "https://www.linkedin.com/in/sanusi-06824524a"
   },
   {
     label: "Twitter X",
-    href: "https://x.com/codewithsadee_"
+    href: "/"
   },
   {
     label: "Instagram",
-    href: "https://www.instagram.com/codewithsadee"
-  },
-  {
-    label: "CodePen",
-    href: "https://codepen.io/codewithsadee"
+    href: "/"
   }
 ];
 
