@@ -10,40 +10,46 @@ import ProjectCard from "./ProjectCard";
 
 const Work = () => {
   const works = [
+    // {
+    //   imgSrc: "/images/projetcs/project-1.jpg",
+    //   title: "Full stack music app",
+    //   tags: ["API", "MVC", "Development"],
+    //   projectLink: "/"
+    // },
+    // {
+    //   imgSrc: "/images/projetcs/project-2.jpg",
+    //   title: "Free stock photo app",
+    //   tags: ["API", "SPA"],
+    //   projectLink: "/"
+    // },
+    // {
+    //   imgSrc: "/images/projetcs/project-3.jpg",
+    //   title: "Recipe app",
+    //   tags: ["Development", "API"],
+    //   projectLink: "/"
+    // },
+    // {
+    //   imgSrc: "/images/projetcs/project-4.jpg",
+    //   title: "Real state website",
+    //   tags: ["Web-design", "Development"],
+    //   projectLink: "/"
+    // },
+    // {
+    //   imgSrc: "/images/projetcs/project-5.jpg",
+    //   title: "eCommerce website",
+    //   tags: ["eCommerce", "Development"],
+    //   projectLink: "/"
+    // },
+    // {
+    //   imgSrc: "/images/projetcs/project-6.jpg",
+    //   title: "vCard Personal portfolio",
+    //   tags: ["Web-design", "Development"],
+    //   projectLink: "/"
+    // },
     {
-      imgSrc: "/images/projetcs/project-1.jpg",
-      title: "Full stack music app",
-      tags: ["API", "MVC", "Development"],
-      projectLink: "/"
-    },
-    {
-      imgSrc: "/images/projetcs/project-2.jpg",
-      title: "Free stock photo app",
-      tags: ["API", "SPA"],
-      projectLink: "/"
-    },
-    {
-      imgSrc: "/images/projetcs/project-3.jpg",
-      title: "Recipe app",
-      tags: ["Development", "API"],
-      projectLink: "/"
-    },
-    {
-      imgSrc: "/images/projetcs/project-4.jpg",
-      title: "Real state website",
-      tags: ["Web-design", "Development"],
-      projectLink: "/"
-    },
-    {
-      imgSrc: "/images/projetcs/project-5.jpg",
-      title: "eCommerce website",
-      tags: ["eCommerce", "Development"],
-      projectLink: "/"
-    },
-    {
-      imgSrc: "/images/projetcs/project-6.jpg",
-      title: "vCard Personal portfolio",
-      tags: ["Web-design", "Development"],
+      imgSrc: "/images/projetcs/project-11.jpg",
+      title: "Recruitment System",
+      tags: ["Fullstack", "MVC", "Development"],
       projectLink: "/"
     },
     {
@@ -55,19 +61,25 @@ const Work = () => {
     {
       imgSrc: "/images/projetcs/project-8.jpg",
       title: "Al-Qur'an",
-      tags: ["API", "Web-design", "Development"],
+      tags: ["API", "Fullstack", "Development"],
       projectLink: "/"
     },
     {
       imgSrc: "/images/projetcs/project-9.jpg",
       title: "Document Archive",
-      tags: ["Web-design", "Development"],
+      tags: ["API", "Fullstack", "Development"],
       projectLink: "/"
     },
     {
       imgSrc: "/images/projetcs/project-10.jpg",
       title: "Contruction System",
-      tags: ["Web-design", "Development"],
+      tags: ["Fullstack", "MVC", "Development"],
+      projectLink: "/"
+    },
+    {
+      imgSrc: "/images/projetcs/project-12.jpg",
+      title: "Inventory",
+      tags: ["Fullstack", "MVC", "Development"],
       projectLink: "/"
     }
   ];
