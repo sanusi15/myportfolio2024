@@ -23,7 +23,7 @@ const Hero = () => {
                 className="img-cover"
               />
             </figure>
-            <div className="flex items-center gap-1.5 text-zinc-400 text-sm tracking-wide">
+            <div className="flex items-center gap-1.5 text-zinc-400 text-sm tracking-wide dark:text-zinc-700">
               <span className="relative w-2 h-2 rounded-full bg-emerald-400">
                 <span className="absolute inset-0 w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
               </span>

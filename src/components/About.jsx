@@ -22,8 +22,8 @@ const About = () => {
   return (
     <section id="about" className="section">
       <div className="container">
-        <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
-          <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
+        <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up dark:bg-zinc-200">
+          <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch] dark:text-zinc-700 transition-colors">
             Wellcome! I&apos;m Sanusi, a web developer with a knack for crafting
             visually stunning and highly functional websites. Combining
             creatifity and technical expertise, I transform your version into
@@ -33,14 +33,16 @@ const About = () => {
             {aboutItems.map(({ label, number }, key) => (
               <div key={key}>
                 <div className="flex items-center md:mb-2`">
-                  <span className="text-2xl font-semibold md:text-4xl">
+                  <span className="text-2xl font-semibold md:text-4xl dark:text-zinc-600">
                     {number}
                   </span>
                   <span className="text-sky-400 font-semibold md:text-3xl">
                     +
                   </span>
                 </div>
-                <p className="text-sm text-zinc-400">{label}</p>
+                <p className="text-sm text-zinc-400 dark:text-zinc-500">
+                  {label}
+                </p>
               </div>
             ))}
             <img
@@ -48,7 +50,7 @@ const About = () => {
               alt="Logo"
               width={30}
               height={30}
-              className="ml-auto md:w-[40px] md:h-[40px]"
+              className="ml-auto md:w-[40px] md:h-[40px] dark:bg-sky-500 dark:rounded-md"
             />
           </div>
         </div>

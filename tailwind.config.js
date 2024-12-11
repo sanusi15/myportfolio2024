@@ -9,5 +9,6 @@ export default {
       }
     }
   },
-  plugins: [tailwindScrollbar]
+  plugins: [tailwindScrollbar],
+  darkMode: "class"
 };
