@@ -13,7 +13,7 @@ const ButtonMode = () => {
         document.documentElement.classList.toggle("dark");
         setDarkMode((prev) => !prev);
       }}
-      className={`w-16 h-7 rounded-full flex items-center justify-center bg-zinc-50/20 dark:bg-zinc-600/50`}
+      className={`w-16 h-5 rounded-full flex items-center justify-center bg-zinc-50/20 dark:bg-sky-500/80`}
     >
       <div
         className={`w-8 h-8 rounded-full flex items-center justify-center bg-zinc-50/90 dark:bg-yellow-300 transform transition-transform duration-500 ${
