@@ -47,6 +47,12 @@ const Work = () => {
     //   projectLink: "/"
     // },
     {
+      imgSrc: "/images/projetcs/project-13.jpg",
+      title: "E-Commerce",
+      tags: ["Fullstack", "API", "Development"],
+      projectLink: "/"
+    },
+    {
       imgSrc: "/images/projetcs/project-11.jpg",
       title: "Recruitment System",
       tags: ["Fullstack", "MVC", "Development"],
